@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>::: Welcome to Cardinal Books :::</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #FFFFFF; /* White Background (Swapped) */
+            color: #000000; /* Black Text (Swapped) */
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 750px;
+            margin: 20px auto;
+            border: 5px solid #FF0000; /* Red Border */
+            background-color: #FFFFFF; /* White Content Area (Swapped) */
+            padding: 15px;
+        }
+        h1, h2 {
+            color: #FF0000;
+            text-shadow: 2px 2px #FFFFFF; /* White shadow for contrast on white background */
+        }
+        a:link, a:visited {
+            color: #FF0000; /* Red Links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #000000; /* Black on Hover */
+            text-decoration: underline;
+        }
+        /* Web 1.0 specific styles */
+        .blinking {
+            text-decoration: blink;
+            color: #000000; /* Black Blink (Swapped) */
+        }
+        .nav-table td {
+            padding: 8px;
+            border: 2px dashed #FF0000;
+        }
+        /* Ensure container text color is black for readability */
+        .container p, .container div {
+            color: #000000;
+        }
+        /* Mission statement still needs white text on dark background */
+        .container div {
+            background-color: #800000;
+            color: #FFFFFF !important;
+        }
+        .container div p {
+            color: #FFFFFF !important;
+        }
+        .container p:last-of-type {
+            color: #000000; /* Hit counter text is black now */
+        }
+    </style>
+</head>
+<body>
+
+<center>
+    <div class="container">
+
+        <!-- Animated Banner Area -->
+        <marquee behavior="alternate" scrollamount="5">
+            <h1 style="font-size: 32px; color: #FF0000;">!!! CARDINAL BOOKS !!!</h1>
+        </marquee>
+
+        <h2 style="border-bottom: 3px solid #FF0000; padding-bottom: 5px;">Your Family Bookstore Since '98!</h2>
+
+        <!-- Navigation Table -->
+        <table class="nav-table" border="0" cellpadding="5" cellspacing="10" width="100%">
+            <tr>
+                <td align="center"><a href="index.html">HOMEPAGE</a></td>
+                <td align="center"><a href="gallery.html">THE GALLERY</a></td>
+                <td align="center"><a href="contact.html">CONTACT US</a></td>
+                <td align="center"><a href="links.html">SOURCES AND INFO</a></td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+
+        <!-- Mission Statement -->
+        <div style="background-color: #800000; padding: 15px; border: 3px groove #FF0000;">
+            <p style="font-size: 14pt; color: white;">
+                <span class="blinking" style="color: #FFFFFF;">*** OUR MISSION ***</span>
+                <br><br>
+                Cardinal Books is dedicated to serving the Ball State University community by providing a friendly,
+                family-oriented hub for all your literary needs. From required textbooks to classic fiction,
+                we strive to be Muncie's coziest spot to grab a coffee, share a story, and connect with the world
+                of literature. We believe reading is fundamental!
+            </p>
+        </div>
+
+        <p>&nbsp;</p>
+
+        <!-- Fun Web 1.0 Content -->
+        <p>
+            <span style="font-size: 16pt; color: #FF0000;">** Check out our new arrivals section! **</span>
+        </p>
+
+        <p style="font-size: 8pt; color: #808080;">
+            This page last updated: 11/17/2025
+        </p>
+
+        <!-- Simulated Hit Counter -->
+        <p style="font-size: 10pt;">
+            You are visitor #
+            <img src="https://placehold.co/100x20/800000/FFFFFF?text=95432" alt="Hit Counter Placeholder">
+            to this page! Thank you for stopping by!
+        </p>
+
+    </div>
+</center>
+
+</body>
+</html>
